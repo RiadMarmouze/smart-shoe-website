@@ -31,7 +31,7 @@ $(document).ready(function () {
 
     try {
       // Add the form data to the 'demandes' collection in Firestore
-      await addDoc(collection(db, "demandes"), {
+      await addDoc(collection(db, "water-pollution-website-demands"), {
         name: name,
         email: email,
         date: date,
